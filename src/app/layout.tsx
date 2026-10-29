@@ -30,7 +30,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </a>
         <Header />
         <main id="main" className="flex-1">
-          {chldren}
+          {children}
         </main>
         <Footer />
       </body>
