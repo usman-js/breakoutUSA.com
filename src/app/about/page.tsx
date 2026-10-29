@@ -39,8 +39,8 @@ export default function AboutPage() {
               approach every conversation.
             </p>
             <p>
-              Founded in <Confirm>founding year: to confirm</Confirm>, we are based in{" "}
-              <Confirm>location: to confirm</Confirm>. <Confirm>Add a short company history here.</Confirm>
+              Founded in <Confirm>2022</Confirm>, we are based in{" "}
+              <Confirm> Arlington Virginia, USA </Confirm>.
             </p>
           </div>
           <Visual className="aspect-[4/3] w-full" label="Replace with a licensed team or office photo" />

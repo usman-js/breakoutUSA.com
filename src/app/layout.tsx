@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { company } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.example.com"), // TODO: set the real production domain
+  metadataBase: new URL("https://www.breakoutusa.com"),
   title: {
     default: `${company.name} | E-Commerce & Brand Partnerships`,
     template: `%s | ${company.name}`,

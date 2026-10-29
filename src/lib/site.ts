@@ -7,12 +7,9 @@ export const company = {
   shortName: "Breakout USA",
   description:
     "Breakout USA is an e-commerce and brand partnership business helping established brands explore sales opportunities on leading online marketplaces.",
-  // TODO: confirm the public business email before launch. Leave empty to hide it.
-  contactEmail: "",
-  // TODO: confirm a physical or mailing address before launch. Leave empty to hide it.
-  address: "",
-  // TODO: confirm phone number before launch. Leave empty to hide it.
-  phone: "",
+  contactEmail: "Info@breakoutusa.com",
+  address: "Arlington Virginia, USA",
+  phone: "1-888-719-5750",
 };
 
 export const navLinks = [
@@ -21,6 +18,24 @@ export const navLinks = [
   { label: "Our Services", href: "/services" },
   { label: "Brand Partnerships", href: "/brand-partnerships" },
   { label: "Contact", href: "/contact" },
+];
+// store links
+export const stores = [
+  {
+    name: "Amazon",
+    logo: "/logos/amazon.png",
+    url: "https://www.amazon.com", // TODO: replace with your Amazon store URL
+  },
+  {
+    name: "eBay",
+    logo: "/logos/ebay.png",
+    url: "https://www.ebay.com", // TODO: replace with your eBay store URL
+  },
+  {
+    name: "Walmart",
+    logo: "/logos/walmart.png",
+    url: "https://www.walmart.com", // TODO: replace with your Walmart store URL
+  },
 ];
 
 export const marketplaces = [

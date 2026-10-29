@@ -4,7 +4,9 @@ import Button from "@/components/Button";
 import Section, { SectionHeading } from "@/components/Section";
 import MarketplacePanel from "@/components/MarketplacePanel";
 import ProcessSteps from "@/components/ProcessSteps";
-import { marketplaces, partnershipBenefits, services } from "@/lib/site";
+import { marketplaces, partnershipBenefits, services, stores} from "@/lib/site";
+import Image from "next/image";
+
 
 export const metadata = {
   title: "E-Commerce & Brand Partnerships",
@@ -40,15 +42,39 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+  {/* Store section */}
+      <section className="border-b border-line bg-white py-16 sm:py-20">
+        <div className="mx-auto max-w-6xl px-5 sm:px-8">
+          <h2 className="text-center text-3xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
+            Check out our store
+          </h2>
 
-      {/* Trust strip */}
-      <div className="border-y border-line bg-navy-50">
-        <div className="mx-auto grid max-w-6xl gap-6 px-5 py-8 text-sm text-navy-900 sm:grid-cols-3 sm:px-8">
-          <p><span className="font-semibold">Marketplace-focused</span> — built around how online channels actually work.</p>
-          <p><span className="font-semibold">Clear terms</span> — eligibility and commercial details agreed up front.</p>
-          <p><span className="font-semibold">Direct communication</span> — one point of contact throughout.</p>
+          <ul className="mt-12 grid grid-cols-1 items-center gap-10 sm:grid-cols-3">
+            {stores.map((store) => (
+              <li key={store.name} className="flex justify-center">
+                <a
+                  href={store.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Visit our ${store.name} store`}
+                  className="flex h-24 w-full max-w-[220px] items-center justify-center rounded-lg border border-line p-6 transition-shadow hover:shadow-md"
+                >
+                  <Image
+                    src={store.logo}
+                    alt={`${store.name} logo`}
+                    width={180}
+                    height={60}
+                    className="h-12 w-auto object-contain"
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-10 text-center text-lg font-bold text-navy-900">Visit Shop</p>
         </div>
-      </div>
+      </section>
+   
 
       {/* Marketplaces */}
       <Section>
