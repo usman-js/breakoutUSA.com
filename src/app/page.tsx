@@ -45,7 +45,7 @@ export default function HomePage() {
       <section className="border-b border-line bg-white py-16 sm:py-20">
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
           <h2 className="text-center text-3xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
-            Check out our store
+            Check out our stores
           </h2>
 
           <ul className="mt-12 grid grid-cols-1 items-center gap-10 sm:grid-cols-3">
