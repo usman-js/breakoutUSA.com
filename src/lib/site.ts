@@ -23,17 +23,17 @@ export const navLinks = [
 export const stores = [
   {
     name: "Amazon",
-    logo: "/logos/amazon.png",
+    logo: "/logos/amazon.svg",
     url: "https://www.amazon.com", // TODO: replace with your Amazon store URL
   },
   {
     name: "eBay",
-    logo: "/logos/ebay.png",
+    logo: "/logos/ebay.svg",
     url: "https://www.ebay.com", // TODO: replace with your eBay store URL
   },
   {
     name: "Walmart",
-    logo: "/logos/walmart.png",
+    logo: "/logos/walmart.svg",
     url: "https://www.walmart.com", // TODO: replace with your Walmart store URL
   },
 ];

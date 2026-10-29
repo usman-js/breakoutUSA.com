@@ -5,7 +5,6 @@ import Section, { SectionHeading } from "@/components/Section";
 import MarketplacePanel from "@/components/MarketplacePanel";
 import ProcessSteps from "@/components/ProcessSteps";
 import { marketplaces, partnershipBenefits, services, stores} from "@/lib/site";
-import Image from "next/image";
 
 
 export const metadata = {
@@ -59,7 +58,7 @@ export default function HomePage() {
                   aria-label={`Visit our ${store.name} store`}
                   className="flex h-24 w-full max-w-[220px] items-center justify-center rounded-lg border border-line p-6 transition-shadow hover:shadow-md"
                 >
-                  <Image
+                  <img
                     src={store.logo}
                     alt={`${store.name} logo`}
                     width={180}
