@@ -22,7 +22,12 @@ export default function MarketplacePanel() {
               key={marketplace.name}
               className="flex items-center justify-between rounded-md border border-white/15 bg-white/[0.06] px-6 py-5"
             >
-              <span className="font-semibold text-white">{marketplace.name}</span>
+              <span className="flex items-center gap-3">
+                <span className="flex h-9 items-center rounded-md bg-white px-2.5">
+                  <img src={marketplace.logo} alt={`${marketplace.name} logo`} className="h-5 w-auto" />
+                </span>
+                <span className="font-semibold text-white">{marketplace.name}</span>
+              </span>
               <span className="text-sm text-navy-100/70">Marketplace</span>
             </li>
           ))}

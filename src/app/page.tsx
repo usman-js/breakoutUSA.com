@@ -61,7 +61,7 @@ export default function HomePage() {
           <ul className="grid gap-4 sm:grid-cols-3">
             {marketplaces.map((marketplace) => (
               <li key={marketplace.name} className="rounded-lg border border-line p-6">
-                <ShoppingBag className="text-electric" size={22} aria-hidden="true" />
+                <img src={marketplace.logo} alt={`${marketplace.name} logo`} className="h-8 w-auto" />
                 <p className="mt-4 font-semibold text-navy-900">{marketplace.name}</p>
                 <p className="mt-1 text-sm text-muted">{marketplace.detail}</p>
               </li>

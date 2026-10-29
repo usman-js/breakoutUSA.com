@@ -27,14 +27,17 @@ export const marketplaces = [
   {
     name: "Amazon",
     detail: "Online marketplace selling",
+    logo: "/logos/amazon.svg",
   },
   {
     name: "Walmart Marketplace",
     detail: "Online marketplace selling",
+    logo: "/logos/walmart.svg",
   },
   {
     name: "eBay",
     detail: "Online marketplace selling",
+    logo: "/logos/ebay.svg",
   },
 ];
 
