@@ -24,12 +24,12 @@ export const stores = [
   {
     name: "Amazon",
     logo: "/logos/amazon.svg",
-    url: "https://www.amazon.com", // TODO: replace with your Amazon store URL
+    url: "https://www.amazon.com/s?k=Breakout+USA&ref=bl_dp_s_web_0",
   },
   {
     name: "eBay",
     logo: "/logos/ebay.svg",
-    url: "https://www.ebay.com", // TODO: replace with your eBay store URL
+    url: "https://www.ebay.com/usr/kh_416858",
   },
   {
     name: "Walmart",
